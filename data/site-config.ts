@@ -2,11 +2,11 @@ import type { SiteConfig } from "@/lib/types";
 
 export const siteConfig: SiteConfig = {
   name: "Thanh Pham",
-  title: "Machine Learning Engineer & AI Researcher",
+  title: "Software Engineer & AI/ML Developer",
   tagline:
-    "Building intelligent systems that bridge research and real-world impact.",
+    "Building production systems at the intersection of software engineering and AI.",
   description:
-    "Personal landing page of Thanh Pham — Machine Learning Engineer specializing in NLP, computer vision, and production ML systems.",
+    "Personal landing page of Thanh Pham — Software Engineer specializing in AI/ML systems, full-stack development, and production infrastructure.",
   url: "https://thanhpham.dev",
   ogImage: "/og-image.png",
 };

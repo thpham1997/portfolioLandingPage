@@ -3,22 +3,17 @@ import type { SocialLink } from "@/lib/types";
 export const socialLinks: SocialLink[] = [
   {
     label: "GitHub",
-    url: "https://github.com/thanhpham",
+    url: "https://github.com/thpham1997",
     icon: "github",
   },
   {
     label: "LinkedIn",
-    url: "https://linkedin.com/in/thanhpham",
+    url: "https://www.linkedin.com/in/th-pham",
     icon: "linkedin",
   },
   {
-    label: "Google Scholar",
-    url: "https://scholar.google.com/citations?user=thanhpham",
-    icon: "graduation-cap",
-  },
-  {
     label: "Email",
-    url: "mailto:thanh@example.com",
+    url: "mailto:th.pham.minhh@gmail.com",
     icon: "mail",
   },
 ];

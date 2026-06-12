@@ -1,10 +1,7 @@
 import { siteConfig } from "@/data/site-config";
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Software", href: "#software" },
-  { label: "Research", href: "#research" },
-  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];

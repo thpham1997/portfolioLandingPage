@@ -25,7 +25,11 @@ export default function ExperienceItem({ entry }: { entry: ExperienceEntry }) {
           {formatDate(entry.startDate)} —{" "}
           {entry.endDate ? formatDate(entry.endDate) : "Present"}
         </p>
-        <p className="text-sm leading-relaxed text-slate">{entry.description}</p>
+        <ul className="space-y-1.5 text-sm leading-relaxed text-slate list-disc list-outside pl-4">
+          {entry.description.map((point, i) => (
+            <li key={i}>{point}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );

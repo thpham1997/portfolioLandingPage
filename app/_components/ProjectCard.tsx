@@ -22,9 +22,11 @@ function SoftwareCard({ project }: { project: SoftwareProject }) {
   return (
     <>
       <h3 className="mb-2 text-lg font-semibold text-white">{project.title}</h3>
-      <p className="mb-4 text-sm leading-relaxed text-slate">
-        {project.description}
-      </p>
+      <ul className="mb-4 space-y-1.5 text-sm leading-relaxed text-slate list-disc list-outside pl-4">
+        {project.description.map((point, i) => (
+          <li key={i}>{point}</li>
+        ))}
+      </ul>
       <div className="mb-4 flex flex-wrap gap-2">
         {project.techStack.map((tech) => (
           <span

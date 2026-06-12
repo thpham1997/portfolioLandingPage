@@ -16,7 +16,7 @@ export interface SocialLink {
 export interface SoftwareProject {
   id: string;
   title: string;
-  description: string;
+  description: string[];
   techStack: string[];
   liveUrl?: string;
   repoUrl?: string;
@@ -46,6 +46,6 @@ export interface ExperienceEntry {
   location: string;
   startDate: string;
   endDate?: string;
-  description: string;
+  description: string[];
   type: "work" | "education";
 }

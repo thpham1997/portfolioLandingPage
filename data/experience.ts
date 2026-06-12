@@ -2,46 +2,20 @@ import type { ExperienceEntry } from "@/lib/types";
 
 export const experienceEntries: ExperienceEntry[] = [
   {
-    id: "senior-mle",
-    role: "Senior Machine Learning Engineer",
-    organization: "TechCorp AI",
-    location: "San Francisco, CA",
-    startDate: "2023-03",
-    description:
-      "Led the ML infrastructure team building model deployment pipelines serving 10M+ predictions/day. Designed and implemented an automated retraining system that reduced model staleness by 60%.",
+    id: "ert-corp",
+    role: "Software Engineer",
+    organization: "ERT Corp",
+    location: "Laurel, MD",
+    startDate: "2023-01",
+    description: [
+      "Built and deployed components of the Environmental Satellite Processing and Distribution System (ESPDS) using Java, Oracle, GWT, and Maven to support satellite data distribution.",
+      "Developed full-stack features using Spring Boot (backend) and GWT (frontend) for the PDA user portal.",
+      "Integrated ActiveMQ message queues for asynchronous communication between microservices.",
+      "Worked with F5 and internal load balancers to ensure high availability and reliable traffic routing.",
+      "Optimized Oracle database queries for datasets containing 100k+ products, reducing loading time by ~20%.",
+      "Deployed services using Blue-Green deployment, enabling zero-downtime releases.",
+      "Automated log collection and monitoring using Filebeat, systemd, SolarWinds, and Bash.",
+    ],
     type: "work",
-  },
-  {
-    id: "ml-researcher",
-    role: "Machine Learning Researcher",
-    organization: "AI Research Lab",
-    location: "Boston, MA",
-    startDate: "2021-06",
-    endDate: "2023-02",
-    description:
-      "Published 4 papers at top-tier conferences (ICML, NeurIPS, CVPR) on efficient transformers and multimodal learning. Built open-source libraries adopted by 500+ researchers.",
-    type: "work",
-  },
-  {
-    id: "phd",
-    role: "Ph.D. in Computer Science",
-    organization: "MIT",
-    location: "Cambridge, MA",
-    startDate: "2017-09",
-    endDate: "2021-05",
-    description:
-      "Dissertation on efficient deep learning architectures for multimodal understanding. Advised by Prof. Jane Smith. GPA: 4.0/4.0.",
-    type: "education",
-  },
-  {
-    id: "bs",
-    role: "B.S. in Computer Science & Mathematics",
-    organization: "UC Berkeley",
-    location: "Berkeley, CA",
-    startDate: "2013-08",
-    endDate: "2017-05",
-    description:
-      "Double major with honors. Undergraduate thesis on scalable approximate nearest neighbor search. TA for Machine Learning (CS 189).",
-    type: "education",
   },
 ];
